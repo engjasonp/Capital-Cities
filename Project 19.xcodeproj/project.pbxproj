@@ -12,20 +12,9 @@
 		CAB5FC031B9FA06700E0259C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAB5FC011B9FA06700E0259C /* Main.storyboard */; };
 		CAB5FC051B9FA06700E0259C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAB5FC041B9FA06700E0259C /* Images.xcassets */; };
 		CAB5FC081B9FA06700E0259C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CAB5FC061B9FA06700E0259C /* LaunchScreen.xib */; };
-		CAB5FC141B9FA06700E0259C /* Project_19Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB5FC131B9FA06700E0259C /* Project_19Tests.swift */; };
-		CAB5FC1E1B9FA3B700E0259C /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAB5FC1D1B9FA3B700E0259C /* MapKit.framework */; };
 		CAB5FC201B9FA54100E0259C /* Capital.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB5FC1F1B9FA54100E0259C /* Capital.swift */; };
+		CAB5FC221B9FB9E500E0259C /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAB5FC211B9FB9E500E0259C /* MapKit.framework */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		CAB5FC0E1B9FA06700E0259C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = CAB5FBF01B9FA06600E0259C /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = CAB5FBF71B9FA06700E0259C;
-			remoteInfo = "Project 19";
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		CAB5FBF81B9FA06700E0259C /* Project 19.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Project 19.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -35,11 +24,10 @@
 		CAB5FC021B9FA06700E0259C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CAB5FC041B9FA06700E0259C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		CAB5FC071B9FA06700E0259C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		CAB5FC0D1B9FA06700E0259C /* Project 19Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Project 19Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CAB5FC121B9FA06700E0259C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CAB5FC131B9FA06700E0259C /* Project_19Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project_19Tests.swift; sourceTree = "<group>"; };
-		CAB5FC1D1B9FA3B700E0259C /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		CAB5FC1F1B9FA54100E0259C /* Capital.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Capital.swift; sourceTree = "<group>"; };
+		CAB5FC211B9FB9E500E0259C /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,14 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CAB5FC1E1B9FA3B700E0259C /* MapKit.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CAB5FC0A1B9FA06700E0259C /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				CAB5FC221B9FB9E500E0259C /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -64,7 +45,7 @@
 		CAB5FBEF1B9FA06600E0259C = {
 			isa = PBXGroup;
 			children = (
-				CAB5FC1D1B9FA3B700E0259C /* MapKit.framework */,
+				CAB5FC211B9FB9E500E0259C /* MapKit.framework */,
 				CAB5FBFA1B9FA06700E0259C /* Project 19 */,
 				CAB5FC101B9FA06700E0259C /* Project 19Tests */,
 				CAB5FBF91B9FA06700E0259C /* Products */,
@@ -75,7 +56,6 @@
 			isa = PBXGroup;
 			children = (
 				CAB5FBF81B9FA06700E0259C /* Project 19.app */,
-				CAB5FC0D1B9FA06700E0259C /* Project 19Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -139,24 +119,6 @@
 			productReference = CAB5FBF81B9FA06700E0259C /* Project 19.app */;
 			productType = "com.apple.product-type.application";
 		};
-		CAB5FC0C1B9FA06700E0259C /* Project 19Tests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = CAB5FC1A1B9FA06700E0259C /* Build configuration list for PBXNativeTarget "Project 19Tests" */;
-			buildPhases = (
-				CAB5FC091B9FA06700E0259C /* Sources */,
-				CAB5FC0A1B9FA06700E0259C /* Frameworks */,
-				CAB5FC0B1B9FA06700E0259C /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				CAB5FC0F1B9FA06700E0259C /* PBXTargetDependency */,
-			);
-			name = "Project 19Tests";
-			productName = "Project 19Tests";
-			productReference = CAB5FC0D1B9FA06700E0259C /* Project 19Tests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -174,10 +136,6 @@
 							};
 						};
 					};
-					CAB5FC0C1B9FA06700E0259C = {
-						CreatedOnToolsVersion = 6.4;
-						TestTargetID = CAB5FBF71B9FA06700E0259C;
-					};
 				};
 			};
 			buildConfigurationList = CAB5FBF31B9FA06600E0259C /* Build configuration list for PBXProject "Project 19" */;
@@ -194,7 +152,6 @@
 			projectRoot = "";
 			targets = (
 				CAB5FBF71B9FA06700E0259C /* Project 19 */,
-				CAB5FC0C1B9FA06700E0259C /* Project 19Tests */,
 			);
 		};
 /* End PBXProject section */
@@ -207,13 +164,6 @@
 				CAB5FC031B9FA06700E0259C /* Main.storyboard in Resources */,
 				CAB5FC081B9FA06700E0259C /* LaunchScreen.xib in Resources */,
 				CAB5FC051B9FA06700E0259C /* Images.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CAB5FC0B1B9FA06700E0259C /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -230,23 +180,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CAB5FC091B9FA06700E0259C /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				CAB5FC141B9FA06700E0259C /* Project_19Tests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		CAB5FC0F1B9FA06700E0259C /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = CAB5FBF71B9FA06700E0259C /* Project 19 */;
-			targetProxy = CAB5FC0E1B9FA06700E0259C /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		CAB5FC011B9FA06700E0259C /* Main.storyboard */ = {
@@ -369,40 +303,6 @@
 			};
 			name = Release;
 		};
-		CAB5FC1B1B9FA06700E0259C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "Project 19Tests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Project 19.app/Project 19";
-			};
-			name = Debug;
-		};
-		CAB5FC1C1B9FA06700E0259C /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "Project 19Tests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Project 19.app/Project 19";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -420,14 +320,6 @@
 			buildConfigurations = (
 				CAB5FC181B9FA06700E0259C /* Debug */,
 				CAB5FC191B9FA06700E0259C /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-		CAB5FC1A1B9FA06700E0259C /* Build configuration list for PBXNativeTarget "Project 19Tests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				CAB5FC1B1B9FA06700E0259C /* Debug */,
-				CAB5FC1C1B9FA06700E0259C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
